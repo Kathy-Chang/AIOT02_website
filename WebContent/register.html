@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,700,400italic' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/registerstyle.css">
+<link rel="stylesheet" href="css/loginstyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+  <div class="wrapper">
+    <div class="default-info">
+      <button type="button" class="btn-main btn-started js-sign-in" id="sign-up">Sign up</button>
+      <button type="button" class="btn-text" onclick="location.href='forgotpassword.html'" style="
+    color: white;
+  	position: fixed;
+  	top: 420px;
+  	left: 780px;">Forgot password?</button>
+    </div>
+    <form class="create-account" action="memberregister">
+      <button type="button" class="btn-text btn-close js-close">X</button>
+      <fieldset>
+        <img src="images/009.jpg" class="img-profile">
+        <p>Don't have an account yet? Just fill in your details and we will make one for you.</p>
+        <span class="error">Email or password was not entered correctly</span>
+        <div class="field-items">
+          <input type="email" placeholder="Email Address" name= "email">
+          <input type="password" placeholder="Password" name= "pass">
+          <input type="number" placeholder="Number" name= "number">
+        </div>
+        <p class="terms">By clicking Sign up, I agree to the <a href"#">Terms of Service</a> and  <a href"#">Privacy Policy.</a></p>
+        <button type="register" class="btn-main btn-started"id="sign-in">Sign up</button>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
+
+<!-- partial -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="js/registerscript.js"></script>
+
+</body>
+</html>

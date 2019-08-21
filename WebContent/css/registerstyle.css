@@ -1,0 +1,144 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+section {
+  color: white;
+  font-family: lato, verdana, sans-serif;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 1px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #47BA5B;
+}
+
+body {
+  background: url("../images/010.jpg") center no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-main {
+  width: 175px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 14px;
+  text-transform: uppercase;
+}
+
+.btn-text {
+  background: none;
+  color: #47BA5B;
+  color: black;
+}
+
+.btn-sign-in {
+  color: white;
+  position: fixed;
+  top: 380px;
+  left: 680px;
+}
+.btn-sign-in:hover {
+  color: #2a7137;
+}
+
+#sign-in {
+  margin-top: 20px;
+}
+
+.btn-started {
+  background: #47BA5B;
+}
+.btn-started:hover {
+  background: #2a7137;
+}
+
+.btn-sign-in, .btn-close {
+  margin: 10px 0 auto auto;
+}
+
+.btn-close {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn-close:hover {
+  color: #47BA5B;
+}
+
+.img-profile {
+  width: 75px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100%;
+}
+
+.default-info {
+  line-height: 1.5;
+}
+
+.create-account {
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+.create-account fieldset {
+  border: none;
+}
+.create-account p:first-of-type {
+  margin: 25px 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+.create-account .terms {
+  display: none;
+  font-size: .8em;
+  text-align: center;
+  margin: 15px 0 -10px 0;
+}
+
+.field-items input {
+  max-width: 400px;
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid 3px transparent;
+  color: black;
+}
+.field-items input:focus {
+  outline: none;
+  border: solid 3px #47BA5B;
+}
+
+.error {
+  color: #EB7260;
+  font-size: 1em;
+  display: none;
+}
